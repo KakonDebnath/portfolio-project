@@ -1,0 +1,20 @@
+.kakon_social_ul{
+    position: absolute;
+    right: 0px;
+    overflow: hidden;
+}
+.kakon_social_ul li{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    right: -90px;
+    border-radius: 5px 0px 0px 5px;
+    transition: all 0.3s;
+
+}
+.kakon_social_ul li:hover{
+    right: 0px;
+    color: #fff;
+}
