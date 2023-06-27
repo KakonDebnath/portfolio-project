@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="max-w-7xl mx-auto bg-orange-50">
             <SectionTitle>About Me</SectionTitle>
-            <div className="flex justify-around items-center pb-20">
+            <div className="md:flex justify-around items-center pb-20">
                 <div>
                     <div className="border-2 border-orange-500 w-72 h-80 rounded-xl transform rotate-45">
                         <img className="transform -rotate-45 hover:transform hover:scale-150 transition-all duration-300" src="https://i.ibb.co/17XG1x1/IMG20230626183418.png" alt="" />

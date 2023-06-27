@@ -3,11 +3,11 @@ import SectionTitle from "../../components/Shared/SectionTitle/SectionTitle";
 
 const Skills = () => {
     return (
-        <div className="max-w-7xl mx-auto ">
+        <div className="">
             <SectionTitle>My Skills</SectionTitle>
-            <div className="w-[500px] h-[500px] rounded-full border-[10px] border-violet-100 mx-auto">
+            {/* <div className="w-[500px] h-[500px] rounded-full border-[10px] border-violet-100 mx-auto">
 
-            </div>
+            </div> */}
         </div>
     );
 };
