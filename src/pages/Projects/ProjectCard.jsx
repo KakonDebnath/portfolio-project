@@ -4,7 +4,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Link } from 'react-router-dom';
 const ProjectCard = ({ title, description, technologies, screenshot, LiveLink, repoLink_client, repoLink_server }) => {
     return (
-        <div className="p-5 bg-white rounded-lg shadow-2xl md:flex justify-between items-center">
+        <div className="p-5 bg-white rounded-lg shadow-2xl md:flex justify-between items-center mb-5">
             <div className='md:w-1/2'>
                 <h2 className="kakon_text_background text-3xl font-bold mb-2">{title}</h2>
                 <p className="text-gray-700 mb-4 text-md text-justify">{description}</p>
