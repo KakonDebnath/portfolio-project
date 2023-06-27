@@ -1,9 +1,11 @@
 import { Typewriter } from 'react-simple-typewriter'
-import { FaArrowDown} from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button/Button';
 import Social from './Social';
 import SocialLink from '../../components/Shared/SocialLink/SocialLink';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 const Banner = () => {
     return (
         <>
@@ -11,13 +13,16 @@ const Banner = () => {
                 <div data-aos="fade-right" data-aos-duration="1500" className='md:w-1/2 text-center md:text-left'>
                     <div className='my-5 space-y-2'>
                         <div className=' relative md:hidden border-2 border-orange-500 rounded-xl w-1/2 mx-auto'>
-                            <img src="https://i.ibb.co/QHdQjWm/IMG20230626183352.png" alt="" />
+                            <LazyLoadImage
+                                alt={"kakan Chandra"}
+                                effect="blur"
+                                src={"https://i.ibb.co/QHdQjWm/IMG20230626183352.png"} />
                             <div className='absolute bottom-2 left-1/2 transform -translate-x-1/2'>
                                 <SocialLink />
                             </div>
                         </div>
                         <p className='text-orange-500 text-2xl font-bold'>Hi, I'm</p>
-                        <h1 className='text-4xl md:text-7xl font-semibold'>Kakan Chandra</h1>
+                        <h2 className='text-4xl md:text-7xl font-semibold'>Kakan Chandra</h2>
                         <h3 className='text-orange-500 font-semibold text-3xl md:text-4xl'>
                             <Typewriter
                                 words={['Junior Web Developer', 'Web Designer', 'Coder!']}

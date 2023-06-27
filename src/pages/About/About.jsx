@@ -1,6 +1,8 @@
 import { FaEye } from "react-icons/fa";
 import Button from "../../components/Button/Button";
 import SectionTitle from "../../components/Shared/SectionTitle/SectionTitle";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 const About = () => {
@@ -10,7 +12,11 @@ const About = () => {
             <div className="md:flex justify-around items-center pb-20">
                 <>
                     <div className="mx-auto border-2 border-orange-500 w-60 md:w-72 md:h-80 rounded-xl transform md:rotate-45 md:mx-0">
-                        <img className="transform md:-rotate-45 hover:transform hover:scale-150 transition-all duration-300" src="https://i.ibb.co/17XG1x1/IMG20230626183418.png" alt="" />
+                        <LazyLoadImage
+                            className="transform md:-rotate-45 hover:transform hover:scale-150 transition-all duration-300"
+                            alt={"kakan Chandra"}
+                            effect="blur"
+                            src={"https://i.ibb.co/17XG1x1/IMG20230626183418.png"} />
                     </div>
                 </>
                 <div className="md:w-1/2 space-y-3 mx-5 md:mx-0">

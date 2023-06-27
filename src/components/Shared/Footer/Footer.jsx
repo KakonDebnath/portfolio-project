@@ -16,7 +16,7 @@ const Footer = () => {
                     <p className="flex items-center gap-3"><FaWhatsapp className="text-green-500" /> 01776558988</p>
                 </div>
                 <div className="mb-10">
-                    <h3 className="kakon_text_background md:text-center mb-3 text-4xl">Follow Me</h3>
+                    <h2 className="kakon_text_background md:text-center mb-3 text-4xl">Follow Me</h2>
                     <div className="flex">
                         <SocialLink gap/>
                     </div>
