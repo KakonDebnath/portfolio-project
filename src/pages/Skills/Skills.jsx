@@ -1,6 +1,6 @@
 import SectionTitle from "../../components/Shared/SectionTitle/SectionTitle";
 import ProgressBar from 'react-animated-progress-bar';
-import { FaCss3, FaGithub, FaHtml5, FaReact, FaRegFileWord } from "react-icons/fa"
+import { FaCss3, FaGithub, FaHtml5, FaReact } from "react-icons/fa"
 import { SiTailwindcss, SiBootstrap, SiMongodb, SiJavascript, SiExpress, SiJsonwebtokens, SiFirebase, SiNetlify } from "react-icons/si"
 
 

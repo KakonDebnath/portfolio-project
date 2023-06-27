@@ -7,7 +7,6 @@ import { useEffect, useState } from 'react';
 const Test = () => {
     const [isNavbarFixed, setIsNavbarFixed] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    console.log(isMobileMenuOpen);
 
     const routes = [
         { id: 1, name: 'Home', path: "/" },

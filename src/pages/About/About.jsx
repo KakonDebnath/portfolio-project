@@ -1,7 +1,7 @@
 import { FaEye } from "react-icons/fa";
 import Button from "../../components/Button/Button";
 import SectionTitle from "../../components/Shared/SectionTitle/SectionTitle";
-import { Link } from "react-router-dom";
+
 
 const About = () => {
     return (

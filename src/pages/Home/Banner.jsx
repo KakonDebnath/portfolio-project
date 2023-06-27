@@ -1,8 +1,9 @@
 import { Typewriter } from 'react-simple-typewriter'
-import { FaArrowDown, FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaArrowDown} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button/Button';
 import Social from './Social';
+import SocialLink from '../../components/Shared/SocialLink/SocialLink';
 const Banner = () => {
     return (
         <>
@@ -12,14 +13,7 @@ const Banner = () => {
                         <div className=' relative md:hidden border-2 border-orange-500 rounded-xl w-1/2 mx-auto'>
                             <img src="https://i.ibb.co/QHdQjWm/IMG20230626183352.png" alt="" />
                             <div className='absolute bottom-2 left-1/2 transform -translate-x-1/2'>
-                                <div className='flex justify-center text-lg gap-2'>
-                                    <Link to="https://github.com/KakonDebnath" target='_blank'><FaGithub className=''/></Link>
-                                    <Link  to="https://www.linkedin.com/in/kakanchandra96/" target='_blank'></Link>
-                                    <Link ><FaLinkedin className='text-blue-500' /></Link>
-                                    <Link ><FaYoutube className='text-red-500' /></Link>
-                                    <Link to="https://web.facebook.com/kalloldebnath.kakon" target='_blank'><FaFacebook className='text-blue-500'/></Link>
-                                    <Link to="https://twitter.com/kakondebnath" target='_blank'><FaTwitter className='text-sky-500' /></Link>
-                                </div>
+                                <SocialLink />
                             </div>
                         </div>
                         <p className='text-orange-500 text-2xl font-bold'>Hi, I'm</p>
