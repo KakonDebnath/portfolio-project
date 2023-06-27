@@ -7,7 +7,7 @@ import { SiTailwindcss, SiBootstrap, SiMongodb, SiJavascript, SiExpress, SiJsonw
 
 const Skills = () => {
     return (
-        <div data-aos="fade-down" data-aos-duration="1000" className="">
+        <div id="skills" data-aos="fade-down" data-aos-duration="1000" className="">
             <SectionTitle>My Skills</SectionTitle>
             
             <div >

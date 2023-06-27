@@ -7,7 +7,7 @@ import SocialLink from '../../components/Shared/SocialLink/SocialLink';
 const Banner = () => {
     return (
         <>
-            <div className='md:flex gap-10 items-center py-5 md:py-10 md:mt-10 max-w-7xl mx-auto relative'>
+            <div id='home' className='md:flex gap-10 items-center py-5 md:py-10 md:mt-10 max-w-7xl mx-auto relative'>
                 <div data-aos="fade-right" data-aos-duration="1500" className='md:w-1/2 text-center md:text-left'>
                     <div className='my-5 space-y-2'>
                         <div className=' relative md:hidden border-2 border-orange-500 rounded-xl w-1/2 mx-auto'>

@@ -18,3 +18,18 @@ h2{
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.kakon_active_link{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 2px 5px;
+    text-transform: capitalize;
+}
+.kakon_active_link:hover{
+    border-bottom: 2px solid orange;
+}
+.active-link {
+    color: orange;
+    font-size: 20px;
+    border-bottom: 2px solid orange;
+}
