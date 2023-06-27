@@ -1,6 +1,7 @@
 .kakon_social_ul{
     position: absolute;
     right: 0px;
+    top: 100px;
     overflow: hidden;
 }
 .kakon_social_ul li{

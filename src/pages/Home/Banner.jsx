@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <>
             <div className='md:flex gap-10 items-center py-5 md:py-10 md:mt-10 max-w-7xl mx-auto relative'>
-                <div className='md:w-1/2 text-center md:text-left'>
+                <div data-aos="fade-right" data-aos-duration="1500" className='md:w-1/2 text-center md:text-left'>
                     <div className='my-5 space-y-2'>
                         <div className=' relative md:hidden border-2 border-orange-500 rounded-xl w-1/2 mx-auto'>
                             <img src="https://i.ibb.co/QHdQjWm/IMG20230626183352.png" alt="" />
@@ -41,7 +41,7 @@ const Banner = () => {
                         <Button icon={<FaArrowDown />} ><Link to="https://drive.google.com/file/d/1dURc1ujLo9XHfaXAW5UkVmgxGDpAB8Di/view?usp=drive_link" target="_blank">Download Resume</Link></Button>
                     </div>
                 </div>
-                <div className=" kakon_border_radius md:bg-[url('https://i.ibb.co/4pwY1cP/121.jpg')] bg-center bg-cover">
+                <div data-aos="fade-left" data-aos-duration="1500" className=" kakon_border_radius md:bg-[url('https://i.ibb.co/4pwY1cP/121.jpg')] bg-center bg-cover">
                     <div className='w-96 h-96 hidden md:block'> </div>
                 </div>
                 <div className='hidden md:block'>
