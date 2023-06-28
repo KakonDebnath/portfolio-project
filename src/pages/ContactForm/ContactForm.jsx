@@ -61,10 +61,10 @@ const ContactForm = () => {
         <div id="contact" className="container mx-auto mb-4 md:mb-10">
             <SectionTitle >Contact Me</SectionTitle>
             <div className="md:flex justify-between items-center gap-5">
-                <div className="md:w-6/12">
+                <div data-aos="fade-right" data-aos-duration="1500" className="md:w-6/12">
                     <Lottie className="" animationData={animationData} loop={true} />
                 </div>
-                <div className="md:w-6/12 mx-5 md:mx-0">
+                <div data-aos="fade-left" data-aos-duration="1500" className="md:w-6/12 mx-5 md:mx-0">
                     <form onSubmit={handleSubmit}>
                         <div className="mb-4">
                             <label htmlFor="name" className="block font-semibold mb-2">
