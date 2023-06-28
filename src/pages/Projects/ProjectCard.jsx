@@ -9,7 +9,7 @@ const ProjectCard = ({ title, description, technologies, screenshot, LiveLink, r
                 <h2 className="kakon_text_background text-3xl font-bold mb-2">{title}</h2>
                 <p className="text-gray-700 mb-4 text-md text-justify">{description}</p>
                 <div className='space-y-3'>
-                    <h2 className='kakon_text_background text-3xl font-bold '>Technologies</h2>
+                    <h2 className='kakon_text_background text-2xl font-bold '>Technologies</h2>
                     <div className="">
                         {technologies.map((tech) => (
                             <span className='capitalize px-3 rounded-md bg-blue-500 text-white py-1 mr-2 inline-block mb-2' key={tech}>{tech}</span>

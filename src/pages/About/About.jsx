@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div id="about" data-aos="fade-up" data-aos-duration="1500" className="max-w-7xl mx-auto bg-orange-50">
+        <div id="about" data-aos="fade-up" data-aos-duration="1500" className="container mx-auto bg-orange-50">
             <SectionTitle>About Me</SectionTitle>
             <div className="md:flex justify-around items-center pb-20">
                 <>

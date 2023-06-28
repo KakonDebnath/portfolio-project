@@ -35,7 +35,7 @@ function Projects() {
   ];
 
   return (
-    <div id="projects" className="container mx-auto py-4 md:py-8">
+    <div id="projects" className="container mx-auto ">
       <SectionTitle>My Recent Projects</SectionTitle>
       <div className="">
         {projects.map((project, index) => (
