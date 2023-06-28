@@ -3,6 +3,7 @@ import Button from "../../components/Button/Button";
 import SectionTitle from "../../components/Shared/SectionTitle/SectionTitle";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import { Link } from "react-router-dom";
 
 
 const About = () => {
@@ -25,7 +26,7 @@ const About = () => {
                     <br />
                     <p className="text-lg">I'm a professional web designer. My motive is to build a best web design with my all years of experience.</p>
                     <div className='flex md:block justify-center'>
-                        <Button icon={<FaEye />} >See Projects</Button>
+                        <Link to="/projects"><Button icon={<FaEye />} >See Projects</Button></Link>
                     </div>
                 </div>
             </div>

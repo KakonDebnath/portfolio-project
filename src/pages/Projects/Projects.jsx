@@ -23,11 +23,19 @@ function Projects() {
       repoLink_client: 'https://github.com/KakonDebnath/kabbo-toys-client',
       repoLink_server: 'https://github.com/KakonDebnath/kabbo_toy_server',
     },
-    // Add more projects as needed
+    {
+      title: 'Chef Master',
+      description: 'The Chef recipe website is a platform where users can register using their email and password or choose to login with their Google or GitHub accounts. The website leverages Google Firebase for authentication, ensuring a secure login process. Once logged in, users can explore the Chef recipe page, which features a wide range of culinary delights. The website implements strict authentication checks to ensure only authorized users can access the recipe page, guaranteeing privacy and security. With an intuitive user interface and extensive recipe collection, the website offers a seamless experience for cooking enthusiasts to discover and share their favorite recipes.',
+      technologies: ['React', 'Express.js', 'Firebase', 'react-ratings', 'swiper js'],
+      screenshot: 'https://i.ibb.co/NKw78dM/Food-Corner.png',
+      LiveLink: 'https://comforting-manatee-2bc134.netlify.app/',
+      repoLink_client: 'https://github.com/KakonDebnath/chef-master-client',
+      repoLink_server: 'https://github.com/KakonDebnath/chef-master-server',
+    },
   ];
 
   return (
-    <div id="projects" className="container mx-auto py-8">
+    <div id="projects" className="container mx-auto py-4 md:py-8">
       <SectionTitle>My Recent Projects</SectionTitle>
       <div className="">
         {projects.map((project, index) => (

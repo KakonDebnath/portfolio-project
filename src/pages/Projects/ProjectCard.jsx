@@ -1,4 +1,4 @@
-import { FaGithub } from 'react-icons/fa6';
+import { FaEye, FaGithub } from 'react-icons/fa6';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Link } from 'react-router-dom';
@@ -18,37 +18,37 @@ const ProjectCard = ({ title, description, technologies, screenshot, LiveLink, r
                 </div>
             </div>
             {/* <img className="w-full mb-4" src={screenshot} alt={title} /> */}
-            <div className='md:w-1/2'>
+            <div className='md:w-1/2 rounded-lg'>
                 <div className='overflow-y-auto h-72 mb-5'>
                     <LazyLoadImage
                         alt={title}
                         effect="blur"
                         src={screenshot} />
                 </div>
-                <div className='flex gap-3 justify-center'>
+                <div className='flex gap-1 md:gap-3 justify-center'>
                     <Link
                         to={LiveLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
+                        className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-2 md:px-4 rounded flex items-center gap-1 md:gap-3"
                     >
-                        Live Site
+                        Live <FaEye />
                     </Link>
                     <Link
                         to={repoLink_client}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded flex items-center gap-3"
+                        className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-2 md:px-4 rounded flex items-center gap-1 md:gap-3"
                     >
-                        <FaGithub /> GitHub Client
+                        <FaGithub /> Client
                     </Link>
                     <Link
                         to={repoLink_server}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded flex items-center gap-3"
+                        className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-2 md:px-4 rounded flex items-center gap-1 md:gap-3"
                     >
-                        <FaGithub /> GitHub Server
+                        <FaGithub /> Server
                     </Link>
                 </div>
             </div>
