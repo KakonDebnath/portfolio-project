@@ -35,7 +35,7 @@ const ContactForm = () => {
                     title: 'Email sent successfully!',
                     showConfirmButton: false,
                     timer: 1500
-                  })
+                })
                 // Clear form data
                 setFormData({
                     name: '',
@@ -52,7 +52,7 @@ const ContactForm = () => {
                     title: 'Sorry Email Not Sent!',
                     showConfirmButton: false,
                     timer: 1500
-                  })
+                })
                 console.error('Error sending email:', error);
                 setLoading(false);
             });
@@ -61,10 +61,18 @@ const ContactForm = () => {
         <div id="contact" className="container mx-auto mb-4 md:mb-10">
             <SectionTitle >Contact Me</SectionTitle>
             <div className="md:flex justify-between items-center gap-5">
-                <div data-aos="fade-right" data-aos-duration="1500" className="md:w-6/12">
+                <div
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                    className="md:w-6/12">
                     <Lottie className="" animationData={animationData} loop={true} />
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1500" className="md:w-6/12 mx-5 md:mx-0">
+                <div
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                    className="md:w-6/12 mx-5 md:mx-0">
                     <form onSubmit={handleSubmit}>
                         <div className="mb-4">
                             <label htmlFor="name" className="block font-semibold mb-2">
@@ -125,10 +133,10 @@ const ContactForm = () => {
                         <div className="flex justify-center">
                             <button
                                 type="submit"
-                                className={`bg-blue-500 text-white py-2 px-10 rounded hover:bg-blue-600 flex items-center gap-3 text-xl ${loading ? "bg-gray-500 hover:bg-gray-500": "bg-blue-500"}`}
+                                className={`bg-blue-500 text-white py-2 px-10 rounded hover:bg-blue-600 flex items-center gap-3 text-xl ${loading ? "bg-gray-500 hover:bg-gray-500" : "bg-blue-500"}`}
                                 disabled={loading}
                             >
-                                Send Message{loading ? <span className="loading loading-spinner"></span> :  <BsSend />}
+                                Send Message{loading ? <span className="loading loading-spinner"></span> : <BsSend />}
                             </button>
                         </div>
                     </form>
