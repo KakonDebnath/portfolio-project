@@ -1,7 +1,7 @@
 import SectionTitle from "../../components/Shared/SectionTitle/SectionTitle";
 import ProgressBar from 'react-animated-progress-bar';
 import { FaCss3, FaGithub, FaHtml5, FaReact } from "react-icons/fa"
-import { SiTailwindcss, SiBootstrap, SiMongodb, SiJavascript, SiExpress, SiJsonwebtokens, SiFirebase, SiNetlify } from "react-icons/si"
+import { SiTailwindcss, SiBootstrap, SiMongodb, SiJavascript, SiExpress, SiJsonwebtokens, SiFirebase, SiNetlify, SiSocketdotio, SiRedux } from "react-icons/si"
 
 
 
@@ -95,6 +95,20 @@ const Skills = () => {
                             <FaGithub size={50} className="text-black"/>
                         </div>
                         <h2 className="text-center font-bold text-2xl">Github</h2>
+                    </div>
+                    <div className="hover:shadow-2xl transition-all duration-300 p-5 rounded-lg space-y-3">
+                        <ProgressBar width="230" trackWidth="20" percentage="60" />
+                        <div className="flex justify-center">
+                            <SiSocketdotio size={50} className="text-black"/>
+                        </div>
+                        <h2 className="text-center font-bold text-2xl">Socket.Io</h2>
+                    </div>
+                    <div className="hover:shadow-2xl transition-all duration-300 p-5 rounded-lg space-y-3">
+                        <ProgressBar width="230" trackWidth="20" percentage="50" />
+                        <div className="flex justify-center">
+                            <SiRedux size={50} className="text-black"/>
+                        </div>
+                        <h2 className="text-center font-bold text-2xl">Redux</h2>
                     </div>
                     
                 </div>

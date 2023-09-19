@@ -6,6 +6,15 @@ function Projects() {
   // Project data
   const projects = [
     {
+      title: 'Insight Space knowledge Sharing Platform (Team Project)',
+      description: 'Welcome to our dynamic Knowledge Sharing and Social Media Platform! Users can easily create accounts, log in, and engage in a wide range of activities, including blogging, asking questions, providing answers, and participating in quizzes. Prepare for success with mock tests and live exams and for those looking to share their expertise, become an instructor with the option to pay via international payment methods. Connect with fellow users through chat and discussions. Instructors have the privilege of creating quizzes for users and receiving financial support from their dedicated learners. Our vigilant admin team ensures platform integrity by granting admin privileges, and they have the authority to remove users or content that violates our guidelines.',
+      technologies: ['React', 'Express.js', 'MongoDB', 'Json Web Token', 'Firebase', 'react hook form', 'axios', 'react tan stack query', 'socket.io', 'redux'],
+      screenshot: 'https://i.ibb.co/DDdPxkQ/Home-Insight-Space.png',
+      LiveLink: 'https://insight-space-f2643.web.app/',
+      repoLink_client: 'https://github.com/Tanjir-Hasan/insight-space',
+      repoLink_server: 'https://github.com/jahirul94/insight-space-server',
+    },
+    {
       title: 'Fancy Drawing School',
       description: 'The Drawing School Project is an online platform that offers a wide range of drawing classes taught by experienced instructors. Users can register using email and password or login with their Google accounts. The platform provides a seamless enrollment process and secure payment system. Users can explore class descriptions, select their preferred classes, and track their payment history. The platform also incorporates role-based access control, allowing administrators to manage user roles and instructors to add and monitor classes. The authentication is powered by Google Firebase and authorization is based on JSON Web Tokens (JWT), ensuring a secure and personalized learning experience for users.',
       technologies: ['React', 'Express.js', 'MongoDB', 'Json Web Token', 'Firebase', 'react hook form', 'axios', 'react tan stack query'],
